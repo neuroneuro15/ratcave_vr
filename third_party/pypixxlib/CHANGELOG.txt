@@ -1,0 +1,125 @@
+pypixxlib--version 1.0.5--
+--------------------------
+First release!
+
+pypixxlib--version 1.0.7--
+--------------------------
+- Fixed a problem with PROPixxDemos.py's indendation
+- Extra i1 features fixed
+
+
+pypixxlib--version 1.0.8--
+--------------------------
+- Bug fixes all around
+- Documentation updated
+
+pypixxlib--version 1.0.9--
+--------------------------
+- Added Shaders for compatibility with PsychoPy
+- Added beep function to audioOut
+
+pypixxlib--version 1.0.10--
+-------------------------
+- Fixed bug in audioOut.
+- Fixed bug in CLUTs.
+- Fixed M16O shader bug.
+
+pypixxlib--version 1.0.11--
+-------------------------
+- Added hotspot correction functions
+
+pypixxlib--version 1.1.0--
+-------------------------
+- Corrected and updated the documentation
+- Hotspot correction bugfixes.
+- Added simple Script for basic commands in the examples folder
+- Fixes on some libdpx not returning anything
+
+pypixxlib--version 1.1.1-- 02/05/2015
+-------------------------
+- Hotspot Correction software improved! Requires PROPixx Rev 17+
+- Added new hotspot correction functions
+- Bug Fix in VIEWPixx class
+
+pypixxlib--version 1.1.2-- 11/03/2015
+-------------------------
+- Added devsel number to all devices.
+- Changed auto devsel in proprixx.py. Now selects "PROPixx"/"PROPixx CTRL" instead of "auto" mode.
+
+pypixxlib--version 1.1.3-- 23/03/2015
+-------------------------
+- Added DOUT on Vsync Demo.
+- Added ResetAllDevices.
+
+pypixxlib--version 1.1.4-- 23/04/2015
+-------------------------
+- Added DPxHasRawUsb() to _libdpx
+- Added DPxIsUsbTreeChanged() _libdpx
+- Added DPxUsbScan() _libdpx
+
+pypixxlib--version 1.1.5-- 21/05/2015
+-------------------------
+- Added DPxSelectSysDevice() to _libdpx
+- Added DPxIsTrackpixx() to _libdpx
+- Added DPxEnablePPxLampLed() to _libdpx
+- Added DPxDisablePPxLampLed() to _libdpx
+- Added DPxIsPPxLampLedEnabled() to _libdpx
+- Added DPxEnablePPxQuietFanMode() to _libdpx
+- Added DPxDisablePPxQuietFanMode() to _libdpx
+- Added DPxIsPPxQuietFanMode() to _libdpx
+- Added DPxSetPPxAwake() to _libdpx
+- Added DPxSetPPxSleep() to _libdpx
+- Added DPxIsPPxAwake() to _libdpx
+- Added setLampLED() to propixx
+- Added isLampLEDMode() to propixx
+- Added setSleepMode() to propixx
+- Added isSleepMode() to propixx
+- Added setQuietMode() to propixx
+- Added isQuietMode() to propixx
+
+pypixxlib--version 1.1.6-- 27/05/2015
+-------------------------
+- Added sequencer RGB240, RGB180 and their API constants.
+- Shaders now include gamma correction, see functions: enableGammaCorrection, disableGammaCorrection, setUpGammaCorrection
+- Documentation correction
+
+pypixxlib--version 1.1.7-- 08/06/2015
+-------------------------
+- Added Linux and Mac Dynamic libraries.
+
+pypixxlib--version 1.1.8-- 11/06/2015
+-------------------------
+- Added Shadders and Hotspot correction
+
+pypixxlib--version 1.1.9-- 08/07/2015
+-------------------------
+- Added setLedIntensity to PROPixx class
+
+pypixxlib--version 1.1.10-- 27/07/2015
+-------------------------
+- Modified Spiread to allow passing initialized buffer.
+
+pypixxlib--version 1.1.11-- 21/09/2015
+-------------------------
+- Modified path for shared library under Linux.
+- Added DPxSetLedCurrent.
+- Changed DPxIsCustomStartupConfig
+
+pypixxlib--version 1.1.12-- 03/12/2015
+-------------------------
+-- Added GREY3X PROPixx mode (640x1080@360 Hz --> 1920x1080@720Hz)
+
+pypixxlib--version 1.1.13-- 07/01/2016
+-------------------------
+Added 64bit dll for windows
+
+pypixxlib--version 1.2.0-- 22/06/2016
+-------------------------
+Changed "isSleepMode" in PROPixx class. Was returning False instead of True, and True instead of False.
+Added "DPxSelectDeviceSubName()".
+Changed devsel number to allow multiple devices.
+
+pypixxlib--version 1.3.0-- 22/03/2017
+-------------------------
+- Added LetMaskFunction
+- Added TPx functions
